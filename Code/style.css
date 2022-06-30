@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #7c74c4;
+  background-image: url("https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.otherProjects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60rem;
+  overflow: hidden;
+  margin-bottom: 5rem;
+}
+
+.typeAhead {
+  width: 50%;
+  overflow: hidden;
+}
+
+.checkbox {
+  width: 50%;
+  overflow: hidden;
+}
+
+
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(135, 131, 131, 0.178);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(114, 114, 114, 0.495);
+}
